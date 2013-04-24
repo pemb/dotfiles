@@ -1,0 +1,53 @@
+#
+# /home/pedro/.nvidia-settings-rc
+#
+# Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
+# Generated on Sun Mar 17 12:21:30 2013
+#
+
+# ConfigProperties:
+
+RcFileLocale = C
+ToolTips = Yes
+DisplayStatusBar = Yes
+SliderTextEntries = Yes
+IncludeDisplayNameInConfigFile = No
+ShowQuitDialog = Yes
+Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = Graphics_Card_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
+
+# Attributes:
+
+0/CursorShadow=0
+0/CursorShadowAlpha=64
+0/CursorShadowRed=0
+0/CursorShadowGreen=0
+0/CursorShadowBlue=0
+0/CursorShadowXOffset=4
+0/CursorShadowYOffset=2
+0/SyncToVBlank=1
+0/LogAniso=0
+0/FSAA=0
+0/TextureSharpen=0
+0/TextureClamping=0
+0/FXAA=0
+0/AllowFlipping=1
+0/FSAAAppControlled=1
+0/LogAnisoAppControlled=1
+0/OpenGLImageSettings=0
+0/FSAAAppEnhanced=0
+0/DigitalVibrance[DFP-2]=0
+0/ColorSpace[DFP-2]=0
+0/ColorRange[DFP-2]=0
+0/XVideoSyncToDisplay=262144
+fenix:0[dpy:4]/RedBrightness=0.000000
+fenix:0[dpy:4]/GreenBrightness=0.000000
+fenix:0[dpy:4]/BlueBrightness=0.000000
+fenix:0[dpy:4]/RedContrast=0.000000
+fenix:0[dpy:4]/GreenContrast=0.000000
+fenix:0[dpy:4]/BlueContrast=0.000000
+fenix:0[dpy:4]/RedGamma=1.000000
+fenix:0[dpy:4]/GreenGamma=1.000000
+fenix:0[dpy:4]/BlueGamma=1.000000

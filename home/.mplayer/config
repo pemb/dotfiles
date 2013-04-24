@@ -6,3 +6,7 @@ ao=alsa,
 double=yes
 ass=yes
 cache=16384
+
+vo=vdpau:denoise=1.0:deint=4:pullup,
+vc=ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,ffh264vdpau,ffodivxvdpau,
+
