@@ -1,0 +1,8 @@
+[Unit]
+Description=Compositing manager
+
+[Service]
+ExecStart=/usr/bin/xcompmgr
+
+[Install]
+WantedBy=mystuff.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Xrdb
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/xrdb -merge .Xresources
+
+[Install]
+WantedBy=mystuff.target

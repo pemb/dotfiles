@@ -1,0 +1,6 @@
+[Unit]
+Description=Window manager target
+AllowIsolate=true
+
+[Install]
+Alias=default.target

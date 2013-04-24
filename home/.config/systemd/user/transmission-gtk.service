@@ -1,0 +1,8 @@
+[Unit]
+Description=Transmission
+
+[Service]
+ExecStart=/usr/bin/transmission-gtk -m
+
+[Install]
+WantedBy=mystuff.target

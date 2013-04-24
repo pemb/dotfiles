@@ -1,0 +1,8 @@
+[Unit]
+Description=Bitcoin Wallet
+
+[Service]
+ExecStart=/usr/bin/bitcoin-qt -splash 0 -min
+
+[Install]
+WantedBy=mystuff.target

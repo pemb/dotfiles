@@ -1,0 +1,8 @@
+[Unit]
+Description=Network Manager applet
+
+[Service]
+ExecStart=/usr/bin/nm-applet
+
+[Install]
+WantedBy=mystuff.target

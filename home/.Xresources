@@ -1,0 +1,12 @@
+
+!Configuração do terminal
+
+URxvt.depth: 32
+URxvt.background: [66]#000000
+URxvt.foreground: #ffffff
+URxvt.scrollBar: false
+URxvt.*font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+!URxvt.*boldFont: -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-*-*
+
+!DPI
+Xft.dpi: 88

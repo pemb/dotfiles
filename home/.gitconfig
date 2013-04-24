@@ -1,0 +1,11 @@
+[user]
+	name = Pedro E. M. Brito
+	email = pedroembrito@gmail.com
+[core]
+	autocrlf = input
+	safecrlf = true
+	editor = nano
+[push]
+	default = simple
+[color]
+	ui = true

@@ -1,0 +1,10 @@
+[Unit]
+Description=Conky
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/conky
+ExecStop=/usr/bin/killall conky
+
+[Install]
+WantedBy=mystuff.target

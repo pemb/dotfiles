@@ -1,0 +1,8 @@
+[Unit]
+Description=bind hotkeys
+
+[Service]
+ExecStart=/usr/bin/xbindkeys -n -f %h/.xbindkeysrc
+
+[Install]
+WantedBy=mystuff.target

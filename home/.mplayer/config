@@ -1,0 +1,8 @@
+fs=yes
+heartbeat-cmd="xscreensaver-command -deactivate > /dev/null"
+softvol=yes
+subfont-text-scale= 5
+ao=alsa,
+double=yes
+ass=yes
+cache=16384

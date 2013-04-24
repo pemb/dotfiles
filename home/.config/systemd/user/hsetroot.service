@@ -1,0 +1,11 @@
+[Unit]
+Description=Set background to black
+Before=awesome.service
+Before=xcompmgr.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/hsetroot -solid "#000000"
+
+[Install]
+WantedBy=wm.target
