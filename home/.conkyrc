@@ -1,0 +1,92 @@
+# Conky, a system monitor, based on torsmo
+#
+# Any original torsmo code is licensed under the BSD license
+#
+# All code written since the fork of torsmo is licensed under the GPL
+#
+# Please see COPYING for details
+#
+# Copyright (c) 2004, Hannu Saransaari and Lauri Hakkarainen
+# Copyright (c) 2005-2010 Brenden Matthews, Philip Kovacs, et. al. (see AUTHORS)
+# All rights reserved.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+# Configurando transparência no KDE
+
+own_window yes
+own_window_argb_visual yes
+own_window_argb_value 127
+#own_window_colour 000000
+own_window_type override
+own_window_class conky-semi
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+
+
+alignment top_right
+background yes
+border_width 1
+cpu_avg_samples 2
+default_bar_size 0 10
+default_color ffffff
+default_outline_color black
+default_shade_color 000000
+default_graph_size 0 10
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades yes
+use_xft yes
+xftfont Terminus:size=10
+gap_x 10
+gap_y 10
+minimum_size 200 1650
+net_avg_samples 2
+double_buffer yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+stippled_borders 0
+update_interval 1
+uppercase no
+use_spacer none
+show_graph_scale no
+show_graph_range no
+
+color1 grey
+color2 grey
+color3 white
+
+TEXT
+
+${font Dejavu Sans:size=20}$alignc$nodename$font 
+
+${color grey}Rodando $color$sysname $kernel $machine
+${color grey}Ligado a $color$uptime
+#${color grey}IP externo: $color${exec curl -4 icanhazip.com 5}
+#${color grey}Saldo: $color${exec bitcoind getbalance} BTC
+$hr
+${color grey}Uso da CPU:$color $cpu% 
+${cpugraph cpu0 20,0}
+${color grey}RAM: usada:$color $mem ${color gray}livre: $color$memeasyfree 
+${membar}
+$hr
+${color grey}Sistemas de arquivos:
+   Ocupado / Livre / Total
+ / $color${fs_used /}/${fs_free /}/${fs_size /} 
+${fs_bar  /}
+${color gray} /tmp $color${fs_used /tmp}/${fs_free /tmp}/${fs_size /tmp} 
+${fs_bar /tmp}
+$hr
