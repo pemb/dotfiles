@@ -6,3 +6,7 @@ ao=alsa,
 double=yes
 ass=yes
 cache=16384
+
+vo=vaapi
+va=vaapi
+
