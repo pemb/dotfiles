@@ -1,0 +1,5 @@
+term xterm-256color
+encoding UTF-8
+altscreen on
+startup_message off
+termcapinfo xterm* ti@:te@
