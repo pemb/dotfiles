@@ -9,4 +9,4 @@ URxvt.*font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 !URxvt.*boldFont: -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-*-*
 
 !DPI
-!Xft.dpi: 88
+Xft.dpi: 96
