@@ -21,3 +21,6 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ln='ln -i'
 
+# Bagui chato do carai (ctrl-a e ctrl-q)
+stty stop undef
+stty start undef
