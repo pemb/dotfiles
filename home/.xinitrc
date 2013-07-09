@@ -1,1 +1,1 @@
-systemd --user
+/usr/bin/init --user
