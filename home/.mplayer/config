@@ -6,7 +6,9 @@ ao=alsa,
 double=yes
 ass=yes
 cache=16384
+joystick=no
+lavdopts=threads=2
 
-vo=vaapi
-va=vaapi
+vo=vdpau:pullup
+vc=ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,ffh264vdpau,ffodivxvdpau,
 

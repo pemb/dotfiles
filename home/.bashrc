@@ -24,3 +24,7 @@ alias ln='ln -i'
 # Bagui chato do carai (ctrl-a e ctrl-q)
 stty stop undef
 stty start undef
+
+# Aceleração de vídeo em hardware
+export LIBVA_DRIVER_NAME=vdpau
+export VDPAU_DRIVER=r600
